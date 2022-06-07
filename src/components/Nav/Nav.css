@@ -3,11 +3,12 @@
   color: white;
   height: 100px;
   width: 100%;
+
 }
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
   display: flex;
   align-items: center;
   height: 100px;

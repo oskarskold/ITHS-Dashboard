@@ -1,5 +1,11 @@
 .clock-bg{
-  padding: 10rem;
+  display: flex;
+  padding: 10rem 0;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
 }
 .clock-text{
   color: #875B73;
