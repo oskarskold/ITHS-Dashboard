@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
-import Clock from './components/Clock';
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import Clock from './components/Clock/Clock';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (

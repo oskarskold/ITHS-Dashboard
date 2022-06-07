@@ -1,0 +1,9 @@
+.clock-bg{
+  padding: 10rem;
+}
+.clock-text{
+  color: #875B73;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}

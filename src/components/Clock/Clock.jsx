@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+import './Clock.css'
 
 const Clock = () => {
 
@@ -12,8 +13,8 @@ const Clock = () => {
    }
 
     return (
-        <div>
-            <p>{time.toLocaleTimeString()}</p>
+        <div className='clock-bg'>
+            <p className='clock-text'>{time.toLocaleTimeString()}</p>
         </div>
     )
 }
