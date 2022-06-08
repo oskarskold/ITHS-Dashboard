@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 import './Weather.css'
 
@@ -19,15 +19,7 @@ const Weather = () => {
       setCity('')
     }
   }
-
-  useEffect(() => {
-    fetch(url)
-    .then(response => response.json())
-    .then(json => setData(json))
-    }, [url])
   
-
-
     return (
       <div className="weather-container">
         <h1 className="weather-title">Check the weather!</h1>
