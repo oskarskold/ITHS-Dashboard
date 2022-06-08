@@ -11,11 +11,22 @@ ul {
   padding: 2rem;
   display: flex;
   align-items: center;
-  height: 100px;
+ 
   justify-content: space-evenly;
 }
 li {
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+a:hover{
+ color : #d9d5d7;
+  
 }

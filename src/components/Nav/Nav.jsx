@@ -8,8 +8,8 @@ const Nav = () => {
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/clock">Clock</Link></li>
-        <li>Weather</li>
-        <li>Traffic</li>
+        <li><Link to="/weather">Weather</Link></li>
+        <li><Link to="/traffic">Traffic</Link></li>
       </ul>
     </div>
   )
