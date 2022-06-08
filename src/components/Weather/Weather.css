@@ -28,7 +28,7 @@
   color: #a04f7c;
 }
 
-.weather-container .search {
+.weather-container .weather-search {
   text-align: center;
   padding: 1rem;
 }
@@ -45,19 +45,19 @@
   justify-content: space-between;
 }
 
-.weather-container .top {
+.weather-container .weather-top {
   width: 100%;
   margin: 1rem auto;
   color: #693250;
 }
 
-.weather-container .description {
+.weather-container .weather-description {
   position: relative;
   color: #693250;
   
 }
 
-.weather-container .bottom {
+.weather-container .weather-bottom {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -69,7 +69,7 @@
   color: #ffffff;
 }
 
-.weather-container .temp, .city {
+.weather-container .weather-temp, .weather-city {
   color: #693250;
   font-size: 1.5rem;
   margin: 1rem;
