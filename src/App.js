@@ -1,22 +1,26 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
 import './App.css';
-import ClockView from './views/ClockView';
-import HomeView from './views/HomeView';
-import WeatherView from './views/WeatherView';
-import TrafficView from './views/TrafficView';
+import Header from './components/Header/Header';
+import Clock from './components/Clock/Clock';
+import Weather from './components/Weather/Weather';
+import Traffic from './components/Traffic/Traffic';
+import Footer from './components/Footer/Footer';
+
 
 const App = () => {
   return (
-    <div className="App">    
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomeView />}></Route>
-        <Route path="/clock" element={<ClockView />}></Route>
-        <Route path="/weather" element={<WeatherView />}></Route>
-        <Route path="/traffic" element={<TrafficView />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <Header/>
+      <div className="wrapper-app">    
+      <div className='top-app'>
+      <Weather/>
+      <Clock/>
+      </div>
+      <div className='bot-app'>
+      <Traffic/>
+      </div>
+      </div>
+      <Footer/>
     </div>
   );
 }

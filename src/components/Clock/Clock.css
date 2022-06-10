@@ -1,15 +1,16 @@
 .clock-bg{
   display: flex;
-  padding: 15rem 0;
+  padding: 10rem 0;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 50vw;
+  height: 30%;
   
 }
 .clock-text{
   color: #875B73;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
+

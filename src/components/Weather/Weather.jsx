@@ -6,7 +6,7 @@ import './Weather.css'
 
 const Weather = () => {
   const [data, setData] = useState({})
-  const [city, setCity] = useState('')  
+  const [city, setCity] = useState('Stockholm')  
 
   const key = 'd94ee145a892dcc47e3e0a052810565b'
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`

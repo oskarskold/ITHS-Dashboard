@@ -4,14 +4,13 @@
   font-size: 20px;
   font-weight: bold;
   color: #333;
-  border-bottom: 1px solid #ddd;
+  
 }
 .traffic{
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
+  width: 1000px;
 }
 
 .traffic-box{
@@ -21,10 +20,10 @@
   flex-direction: column;
 }
 
-.traffic-ul{
-  display: flex;
-  flex-direction: column;
+li{
+  list-style-type: none;
 }
+
 .traffic-name{
   font-size: 16px;
   font-weight: bold;
@@ -42,3 +41,4 @@
   font-size: 14px;
   color: rgb(188, 58, 58);
 }
+

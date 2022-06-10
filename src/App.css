@@ -9,8 +9,21 @@
 .App{
   display: flex;
   flex-direction: column;
-  
   padding: 0;
   margin: 0;
+ 
+}
+.top-app{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bot-app{
+
+}
+.wrapper-app{
+  display: flex;
+
  
 }

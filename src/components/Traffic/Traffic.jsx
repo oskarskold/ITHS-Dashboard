@@ -14,6 +14,10 @@ const Traffic = () => {
     fetchData('');
   }, []);
 
+  if (data.length > 10) {
+    setData(data.slice(0, 10));
+  } 
+
   return (
     <div className="traffic-container">
       <h1 className="traffic-header">Reseplaneraren</h1>
