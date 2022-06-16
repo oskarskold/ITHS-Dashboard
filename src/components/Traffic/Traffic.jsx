@@ -9,7 +9,7 @@ const Traffic = () => {
     async function fetchData() {
       const res = await API.getData();
       setData(res.data.Departure);
-      console.log(res.data.Departure);
+     
     }
     fetchData('');
   }, []);
@@ -27,7 +27,6 @@ const Traffic = () => {
                <li className="traffic-name">Namn: {item.name}</li>
               <li className="traffic-time">Avgång: {item.time}</li>
               <li className="traffic-direction">Åker mot: {item.direction}</li>
-              <li className="traffic-stop">Nästa stopp: {item.stop}</li>
               </ul>
 
           ))}
